@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Orbitron:wght@400;600;700&family=Press+Start+2P&family=Righteous&family=Roboto:ital,wght@0,400;0,700;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css external link -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="productDisplay">
+        <div class="logoSection">
+          <img src="./images/pngimg.com - nike_PNG18.png" id="logo" />
+
+          <i class="bx bx-cart" style="font-size: 30px"></i>
+        </div>
+        <img src="./images/pinkNike.jpg" class="productImage" />
+      </div>
+      <div class="productDetails">
+        <div class="productName">
+          <h3>Nike Dunk Low Retro QS</h3>
+          <p>Man's outdoor wear</p>
+          <span style="display: flex; justify-content: space-between;">
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+              <p style=" font-family: cursive; " >&#8358;50,000</p>
+
+            
+          </span>
+          <p style=" color:red; font-family: cursive; text-decoration: line-through; position: absolute; right: 50px;transform: translateY(-10px);" ><span style="color:rgb(70, 69, 69);;">&#8358;90,000</span></p>
+        </div>
+        <div class="productDescription">
+          <h5>PRODUCT DESCRIPTION</h5>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaLoresi expedita libero.</p>
+        </div>
+        <div class="colorBox">
+            <span>COLOUR :</span>
+            <div class="pink active"></div>
+            <div class="pink"></div>
+            <div class="pink"></div>
+          </div>
+
+          <div class="sizeBox">
+            <span>SIZE :</span>
+            <button class="size">7</button>
+            <button class="size">8</button>
+            <button class="size">9</button>
+            <button class="size">10</button>
+            <button class="size">11</button>
+            <button class="size">12</button>
+
+          </div>
+<button class="addToCartBtn">ADD TO CART <i class='bx bx-right-arrow-alt' style="font-size: 1.3rem;"></i></button>
+
+      </div>
+
+      
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
 </html>

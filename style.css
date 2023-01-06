@@ -1,0 +1,133 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Righteous', cursive;
+  
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color:rgb(70, 69, 69);
+}
+
+.container {
+  position: relative;
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  width: 100vw;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.58);
+  /* border-radius: 20px; */
+  overflow: hidden;
+}
+
+.productDisplay {
+  height: 35vh;
+ 
+}
+
+.productDetails {
+  height: 70vh;
+  border-radius: 50% 50% 0 0 ;
+  padding: 100px 50px;
+  box-shadow: 0px 0 10px 10px rgba(0, 0, 0, 0.185);
+
+  
+}
+
+.productName{
+    margin: 20px 0px;
+    /* border: 2px solid red; */
+}
+
+
+.productImage {
+  padding: 20px;
+
+  position: absolute;
+  object-fit: cover;
+  width: 280px;
+  transform: translateY(-70px) rotate(5deg);
+  z-index: -1;
+
+}
+
+
+.productDescription{
+    margin: 0 0 10px 0;
+}
+.stars{
+    color: rgb(255, 145, 1);
+}
+.logoSection {
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.colorBox{
+    display: flex;
+    align-items: center;
+    
+    
+}
+ .colorBox .pink{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(243, 221, 192);
+    margin: 0 8px;
+ }
+
+ .colorBox .pink.active{
+box-shadow: 0 0 0 3px white,
+            0 0 0 5px rgb(243, 221, 192)
+ }
+
+ .sizeBox{
+    margin: 20px 0;
+ }
+
+ .sizeBox .size{
+    margin: 0 2px;
+    width: 25px;
+    height: 25px;
+    border: none;
+ }
+
+ .sizeBox .size:hover{
+    background-color: antiquewhite;
+    font-weight: bold;
+ }
+
+ .addToCartBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+    letter-spacing: .2rem;
+    font-weight: bold;
+    transition: box-shadow 2s ease;
+ }
+ .addToCartBtn:hover{
+    box-shadow: 0px 5px 5px black;
+ }
